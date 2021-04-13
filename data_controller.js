@@ -12,7 +12,7 @@ $( document ).ready(function() {
     $("#title").text(allData[schoolIndex]["buildings"][index].title);
     $("#description1").text(allData[schoolIndex]["buildings"][index].description1);
     $("#description2").text(allData[schoolIndex]["buildings"][index].description2);
-    $("#heading").text('Virtual Tour Webb | ' + allData[schoolIndex]["buildings"][index].title);
+    $("#heading").text('Virtourgo | ' + allData[schoolIndex]["buildings"][index].title);
     // $("#description2").attr("src", allData[schoolIndex]["buildings"][0].img);
     var panorama = new google.maps.StreetViewPanorama(
       document.getElementById('pano'), {
@@ -31,7 +31,7 @@ function goToNextPlace() {
     $("#title").text(allData[schoolIndex]["buildings"][index].title);
     $("#description1").text(allData[schoolIndex]["buildings"][index].description1);
     $("#description2").text(allData[schoolIndex]["buildings"][index].description2);
-    $("#heading").text('Virtu Tour Webb | ' + allData[schoolIndex]["buildings"][index].title);
+    $("#heading").text('Virtourgo | ' + allData[schoolIndex]["buildings"][index].title);
     var panorama = new google.maps.StreetViewPanorama(
       document.getElementById('pano'), {
         position: {lat: allData[schoolIndex]["buildings"][index].lat, lng: allData[schoolIndex]["buildings"][index].lng},
@@ -64,7 +64,7 @@ function goToNextPlaceWithIndex(gotoIndex) {
     $("#title").text(allData[schoolIndex]["buildings"][index].title);
     $("#description1").text(allData[schoolIndex]["buildings"][index].description1);
     $("#description2").text(allData[schoolIndex]["buildings"][index].description2);
-    $("#heading").text('Virtual Tour Webb | ' + allData[schoolIndex]["buildings"][index].title);
+    $("#heading").text('Virtourgo | ' + allData[schoolIndex]["buildings"][index].title);
     var panorama = new google.maps.StreetViewPanorama(
       document.getElementById('pano'), {
         position: {lat: allData[schoolIndex]["buildings"][index].lat, lng: allData[schoolIndex]["buildings"][index].lng},
