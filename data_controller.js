@@ -3,8 +3,6 @@ var index = 0;
 var schoolIndex ;
 $( document ).ready(function() {
    schoolIndex = window.location.href.split("=")[1];
-    console.log(index);
-    console.log(allData);
     for(var i = 0; i < allData[schoolIndex]["buildings"].length; i++) {
       $("#menu_bar").append('<a class="dropdown-item" onclick="goToNextPlaceWithIndex(' + i + ')">' + allData[schoolIndex]["buildings"][i].title + '</a>');
     }

@@ -1,150 +1,1270 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.6">
-    <title>Virtourgo | Home</title>
+	<head>
+		<meta charset="utf-8">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/jumbotron/">
+		<!-- Always force latest IE rendering engine -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicons -->
-    <link rel="icon" href="favicon.ico">
-    <meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#563d7c">
+		<meta name="description" content="DESCRIPTION">
+		<meta name="keywords" content="KEYWORDS">
+		<meta name="author" content="AUTHOR NAME">
 
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="data.js"></script>
-    <script src="new_view_data.js"></script>
-  <script src="index_controller.js"></script>
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+		<!-- TITLE -->
+		<title>Themline - Multipurpose One page</title>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+		<!-- FAVICON -->
+	    <link href="img/favicon/favicon.ico" rel="icon">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 
-      h1{
-        text-align:center;
-      }
+		<!-- BOOTSTRAP CSS -->
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
-      #topPart{
-        height:70%;
-        weight:100%;
-        padding:10px;
-        margin-top:30px;
-      }
-      
-      .btn btn-outline-secondary{
-        background-color: #008CBA;
-      }
-      .navbar-brand {
-        border-radius:15px;
-        padding: 0 10px;
-      }
-      .navbar-nav {
-          border-radius:15px;
-        padding: 0 10px;
-      }
-      .navbar-toggler-icon {
-        border-radius:5px;
-      }
-     
+		<!-- FONT-AWESOME & ET-LINE-FONT CSS -->
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/et-line-font/et-line-font.css">
 
-    </style>
-    <!-- Custom styles for this template -->
-    <!-- <link href="jumbotron.css" rel="stylesheet"> -->
-  </head>
-  <body>
-    <!--navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top transparent" id="webb">
-      <a class="navbar-brand" href="https://www.webb.org"  style="color:black">Virtourgo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon bg-dark"></span>
-      </button>
+	    <!-- MAGNIFIC POPUP CORE CSS -->
+	    <link href="css/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item" style="width:80px; !important">
-            <a class="nav-link" href="index.html" style="color:black">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color:black">About <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--navigation bar-->
+        <!-- OWL CAROUSEL -->
+        <link href="css/owl-carousel/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/owl-carousel/owl.theme.default.min.css" rel="stylesheet">
 
-<main role="main">
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="">
-    <div class="container">
-      <br>
-      <br>
-      <div class="jumbotron mt-4">
-      <div style="text-align:center;display:flex; flex-direction:column;">
-        <img src="virtourgo.png" style="width:50%; margin:0 auto;"></img>
-        <span class="lead" style="margin-top:10px">Welcome to Virtourgo!</span>
-        <span class="lead">Explore your intererested school with no limit!</span>
-      </div>
-      </div>
-      <br>
-      <br>
+		<!-- MAIN STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
 
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="School name" id="schoolInput" aria-label="School name" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="startVirtualTour" background-color: #008CBA;>Start Virtual Tour</button>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-    </div>
-    
-  </div>
+		<!-- RESPONSIVE STYLE CSS -->
+		<link rel="stylesheet" href="css/responsive.css">
 
-  <div class="container">
+		<!-- COLORS CSS -->
+		<link rel="stylesheet" href="css/colors/blue.css">
+
+		<!-- CUSTOM COLORS -->
+		<!--
+		<link rel="stylesheet" href="css/colors/blue.css">
+		<link rel="stylesheet" href="css/colors/brown.css">
+		<link rel="stylesheet" href="css/colors/gold.css">
+		<link rel="stylesheet" href="css/colors/grapefruit.css">
+		<link rel="stylesheet" href="css/colors/green.css">
+		<link rel="stylesheet" href="css/colors/orange.css">
+		<link rel="stylesheet" href="css/colors/red.css">
+		<link rel="stylesheet" href="css/colors/g-blue.css">
+		<link rel="stylesheet" href="css/colors/g-brown.css">
+		<link rel="stylesheet" href="css/colors/g-gold.css">
+		<link rel="stylesheet" href="css/colors/g-grapefruit.css">
+		<link rel="stylesheet" href="css/colors/g-green.css">
+		<link rel="stylesheet" href="css/colors/g-orange.css">
+		<link rel="stylesheet" href="css/colors/g-red.css">
+		-->
+
+	</head>
+	<body>
 
 
-  </div> <!-- /container -->
-</main>
-<!-- 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+		<!-- =========    START PRELOADING    ======== -->
+		<div class="loading">
+		    <div class="sk-folding-cube">
+		        <div class="sk-cube1 sk-cube"></div>
+		        <div class="sk-cube2 sk-cube"></div>
+		        <div class="sk-cube4 sk-cube"></div>
+		        <div class="sk-cube3 sk-cube"></div>
+		    </div>
+		</div>
+		<!-- =========    END PRELOADING    ======== -->
+
+
+		<!-- ====== HEADER START ======  -->
+		<section class="s-header" id="home" data-scroll-index="0">
+			<div class="header-overlay">
+
+
+				<!-- ====== NAVGITION ======  -->
+				<nav class="navbar land-nav">
+					<div class="container">
+						<div class="row">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								</button>
+								<!-- logo -->
+								<a class="logo navbar-brand" href="#home" data-scroll-nav="0">
+
+									<!-- WHITE LOGO -->
+									<img class="white-logo" width="200" src="img/white-logo.png" alt="logo" />
+
+									<!-- DARK LOGO -->
+									<img class="dark-logo" width="200" src="img/dark-logo.png" alt="logo" />
+
+								</a>
+							</div>
+
+							<!-- Collect the nav links, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="collapse">
+
+								<!-- links -->
+								<ul class="nav navbar-nav navbar-right" id="navbar">
+									<li><a href="#home" data-scroll-nav="0" class="active">Home</a></li>
+									<li><a href="#about" data-scroll-nav="1">About</a></li>
+									<li><a href="#services" data-scroll-nav="2">Services</a></li>
+									<li><a href="#work" data-scroll-nav="3">Work</a></li>
+									<li><a href="#price" data-scroll-nav="4">Price</a></li>
+									<li><a href="#blog" data-scroll-nav="5">Blog</a></li>
+									<li><a href="#contact" data-scroll-nav="6">Contact</a></li>
+								</ul>
+							</div><!-- /.navbar-collapse -->
+						</div>
+					</div><!-- /.container -->
+				</nav>
+				<!-- ====== END NAVGITION ======  -->
+
+
+				<!-- ====== START HEADER CONTENT ======  -->
+				<div class="middle-c text-center">
+					<div class="container">
+						<div class="row">
+
+							<div class="capt col-md-8 col-sm-11">
+
+								<h1>We help the <span>companies</span> to build <span>products</span></h1>
+
+								<a href="#about" data-scroll-nav="1" id="cta">Know More</a>
+								<a href="#contact" data-scroll-nav="6">Contact us</a>
+
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<!-- ====== END HEADER CONTENT ======  -->
+
+
+				<div class="header-shap">
+	                <img src="img/shap1.png" alt="Shape">
+	            </div>
+
+	            
+			</div>
+		</section>
+		<!-- ====== END HEADER ======  -->
+
+
+		<!-- ====== START ABOUT ======  -->
+		<section class="sections about" id="about" data-scroll-index="1">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>ABOUT US</span>
+						<h5>Our Journey</h5>
+						<h4>Small Introduction About Us</h4>
+					</div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- START ABOUT PICTURE -->
+					<div class="about-pic col-lg-4 col-md-5">
+						<img src="http://via.placeholder.com/700x900" alt="About">
+						<div class="over-pic">
+							<div class="ab-info">
+								<span class="count" data-from="0" data-to="15">0</span>
+								<p>years of experience in it industry</p>
+							</div>
+						</div>
+					</div>
+					<!-- END ABOUT PICTURE -->
+
+
+					<!-- START ABOUT CONTENT -->
+					<div class="ab-cont col-lg-8 col-md-7">
+
+						<h3>We <span>love</span> what we do & we do it with <span>passion!</span></h3>
+						<p>We've been crafting beautiful websites, launching stunning brands and making clients happy for years.</p>
+						<p>With over 20 years’ experience, Expression web’s know-how is equal to none. From small web projects to major scale projects, we offer dynamic solutions that follow the latest digital trends. With numerous clients in over a dozen countries, we know web development! Whether your project requires database, e‑commerce or mobile app development, we have the solution that your organization needs.</p>
+						<div class="features">
+							<p>
+								<span class="icon icon-map"></span>
+								Provide Advice and Guides
+							</p>
+							<p>
+								<span class="icon icon-linegraph"></span>
+								Quick, Smart & Great Solutions
+							</p>
+							<p>
+								<span class="icon icon-heart"></span>
+								Friendly Support in Person
+							</p>
+						</div>
+
+					</div>
+					<!-- END ABOUT CONTENT -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END ABOUT ======  -->
+
+
+		<!-- ====== START SKILLS ======  -->
+		<section class="sections skills">
+			<div class="container">
+				<div class="row">
+			
+
+					
+					<div class="col-md-3 bg-title">
+						<h2>More than 8 Years of hard work and satisfying clients</h2>
+					</div>
+					
+
+					<div class="col-md-4 pic">
+						<div class="pic-border"></div>
+					</div>
+
+
+					<div class="col-md-5 skills-br">
+						<h2>Our skills</h2>
+						<ul>
+                    			
+							<li>
+								<span>HML5 & CSS3</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="95" style="width: 95%;" >
+					                    <span>95%</span>
+					                 </div>
+				                 </div>
+							</li>
+							<li>
+								<span>PHP</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="90" style="width: 90%;">
+					                    <span>90%</span>
+					                 </div>
+				                 </div>
+							</li>
+							<li>
+								<span>Javascript</span>
+								<div class="progress">
+									<div class="progress-bar" data-percent="55" style="width: 55%;">
+					                    <span>55%</span>
+					                 </div>
+				                 </div>
+							</li>
+
+						</ul>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END SKILLS ======  -->
+
+
+		<!-- ====== START SERVICES ======  -->
+		<section class="sections services" id="services" data-scroll-index="2">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>SERVICES</span>
+						<h5>Our Services</h5>
+						<h4>Some of our best services</h4>
+					</div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- START SERVICES ITEMS -->
+					<div class="sr-items">
+
+
+						<!-- START SERVICE BOX -->
+						<div class="col-md-4">
+							<div class="serv-box">
+								<!-- SERVICE ICON -->
+								<span class="icon icon-desktop"></span>
+								<!-- SERVICE TITLE -->
+								<h3>Unique design</h3>
+								<!-- SERVICE CONTENT -->
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim vestibul lorem pretium semper.</p>
+							</div>
+						</div>
+						<!-- END SERVICE BOX -->
+
+						<!-- START SERVICE BOX -->
+						<div class="col-md-4">
+							<div class="serv-box no-margin">
+								<!-- SERVICE ICON -->
+								<span class="icon icon-picture"></span>
+								<!-- SERVICE TITLE -->
+								<h3>Parallax Sections</h3>
+								<!-- SERVICE CONTENT -->
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim vestibul lorem pretium semper.</p>
+							</div>
+						</div>
+						<!-- END SERVICE BOX -->
+
+						<!-- START SERVICE BOX -->
+						<div class="col-md-4">
+							<div class="serv-box">
+								<!-- SERVICE ICON -->
+								<span class="icon icon-mobile"></span>
+								<!-- SERVICE TITLE -->
+								<h3>True responsiveness</h3>
+								<!-- SERVICE CONTENT -->
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim vestibul lorem pretium semper.</p>
+							</div>
+						</div>
+						<!-- END SERVICE BOX -->
+						
+
+
+						<!-- START SERVICE BOX -->
+						<div class="col-md-4">
+							<div class="serv-box">
+								<!-- SERVICE ICON -->
+								<span class="icon icon-megaphone"></span>
+								<!-- SERVICE TITLE -->
+								<h3>Progress and accordians</h3>
+								<!-- SERVICE CONTENT -->
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim vestibul lorem pretium semper.</p>
+							</div>
+						</div>
+						<!-- END SERVICE BOX -->
+
+						<!-- START SERVICE BOX -->
+						<div class="col-md-4">
+							<div class="serv-box no-margin">
+								<!-- SERVICE ICON -->
+								<span class="icon icon-target"></span>
+								<!-- SERVICE TITLE -->
+								<h3>Web design and graphic</h3>
+								<!-- SERVICE CONTENT -->
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim vestibul lorem pretium semper.</p>
+							</div>
+						</div>
+						<!-- END SERVICE BOX -->
+
+						<!-- START SERVICE BOX -->
+						<div class="col-md-4">
+							<div class="serv-box">
+								<!-- SERVICE ICON -->
+								<span class="icon icon-layers"></span>
+								<!-- SERVICE TITLE -->
+								<h3>Different layout type</h3>
+								<!-- SERVICE CONTENT -->
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim vestibul lorem pretium semper.</p>
+							</div>
+						</div>
+						<!-- END SERVICE BOX -->
+
+
+					</div>
+					<!-- END SERVICES ITEMS -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END SERVICES ======  -->
+
+
+		<!-- ====== START PORTFOLIO ======  -->
+		<section class="sections portfolio" id="work" data-scroll-index="3">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>WORK</span>
+						<h5>Our Portfolio</h5>
+						<h4>Some of our awesome works</h4>
+					</div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- WORK FILTER BUTTONS -->
+					<div class="button-group filter-work">
+					  <a class="button is-checked" data-filter="*">All</a>
+					  <a class="button " data-filter=".item-branding">Branding</a>
+					  <a class="button" data-filter=".item-mobile">Mobile</a>
+					  <a class="button" data-filter=".item-userexperience">Ux</a>
+					  <a class="button" data-filter=".item-webdesign">Web Design</a>
+					</div>
+					<!-- END WORK FILTER BUTTONS -->
+
+
+					<!-- WORK CONTENT START -->
+					<div class="work-content">
+					  
+						<!-- WORK ITEM -->
+						<div class="work-item item-branding">
+							<div class="work-caption">
+									
+								<!-- WORK IMAGE -->
+						  		<img src="http://via.placeholder.com/450x300" alt="Image Title" />
+
+						  		<!-- WORK TITLE -->
+							  	<div class="overlay">
+							  		<div class="info-content">
+							  			<a href="#">
+									  		<h4>Project Title</h4>
+									  	</a>
+								  		<p>Branding</p>
+									</div>
+									<div class="know-more">
+										<a class="modal-image" href="http://via.placeholder.com/450x300">
+											<span class="icon icon-focus"></span>
+										</a>
+									</div>
+							  	</div>
+
+							</div>
+						</div>
+
+						<!-- WORK ITEM -->
+						<div class="work-item item-mobile">
+							<div class="work-caption">
+								
+								<!-- WORK IMAGE -->
+						  		<img src="http://via.placeholder.com/450x300" alt="Image Title" />
+
+						  		<!-- WORK TITLE -->
+							  	<div class="overlay">
+							  		<div class="info-content">
+							  			<a href="#">
+									  		<h4>Project Title</h4>
+									  	</a>
+								  		<p>Mobile</p>
+									</div>
+									<div class="know-more">
+										<a class="modal-image" href="http://via.placeholder.com/450x300">
+											<span class="icon icon-focus"></span>
+										</a>
+									</div>
+							  	</div>
+
+							</div>
+						</div>
+
+						<!-- WORK ITEM -->
+						<div class="work-item item-mobile">
+							<div class="work-caption">
+								
+								<!-- WORK IMAGE -->
+						  		<img src="http://via.placeholder.com/450x300" alt="Image Title" />
+
+						  		<!-- WORK TITLE -->
+							  	<div class="overlay">
+							  		<div class="info-content">
+							  			<a href="#">
+									  		<h4>Project Title</h4>
+									  	</a>
+								  		<p>Mobile</p>
+									</div>
+									<div class="know-more">
+										<a class="modal-image" href="http://via.placeholder.com/450x300">
+											<span class="icon icon-focus"></span>
+										</a>
+									</div>
+							  	</div>
+
+							</div>
+						</div>
+
+						<!-- WORK ITEM -->
+						<div class="work-item item-userexperience">
+							<div class="work-caption">
+
+								<!-- WORK IMAGE -->
+						  		<img src="http://via.placeholder.com/450x300" alt="Image Title" />
+
+						  		<!-- WORK TITLE -->
+							  	<div class="overlay">
+							  		<div class="info-content">
+							  			<a href="#">
+									  		<h4>Project Title</h4>
+									  	</a>
+							  			<p>UX</p>
+									</div>
+									<div class="know-more">
+										<a class="modal-image" href="http://via.placeholder.com/450x300">
+											<span class="icon icon-focus"></span>
+										</a>
+									</div>
+							  	</div>
+							
+							</div>
+						</div>
+
+						<!-- WORK ITEM -->
+						<div class="work-item item-webdesign">
+							<div class="work-caption">
+								
+								<!-- WORK IMAGE -->
+						  		<img src="http://via.placeholder.com/450x300" alt="Image Title" />
+
+						  		<!-- WORK TITLE -->
+							  	<div class="overlay">
+							  		<div class="info-content">
+							  			<a href="#">
+									  		<h4>Project Title</h4>
+									  	</a>
+							  			<p>Web Design</p>
+									</div>
+									<div class="know-more">
+										<a class="modal-image" href="http://via.placeholder.com/450x300">
+											<span class="icon icon-focus"></span>
+										</a>
+									</div>
+							  	</div>
+
+							</div>
+						</div>
+
+						<!-- WORK ITEM -->
+						<div class="work-item item-branding">
+							<div class="work-caption">
+								
+								<!-- WORK IMAGE -->
+						  		<img src="http://via.placeholder.com/450x300" alt="Image Title" />
+
+						  		<!-- WORK TITLE -->
+							  	<div class="overlay">
+							  		<div class="info-content">
+							  			<a href="#">
+									  		<h4>Project Title</h4>
+									  	</a>
+							  			<p>Branding</p>
+									</div>
+									<div class="know-more">
+										<a class="modal-image" href="http://via.placeholder.com/450x300">
+											<span class="icon icon-focus"></span>
+										</a>
+									</div>
+							  	</div>
+
+							</div>
+						</div>
+
+					</div>
+					<!-- WORK CONTENT END -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END SERVICES ======  -->
+
+
+		<!-- ====== START PRICE ======  -->
+		<section class="sections pricing" id="price" data-scroll-index="4">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>PRICES</span>
+						<h5>Our Prices</h5>
+						<h4>Perfect & Affordable Pricing</h4>
+					</div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- START PRICING TABLES TABS -->
+					<div class="text-center">
+						<ul class="price-tabs" role="tablist">
+						    <li role="presentation" class="active">
+						    	<a href="#personal" aria-controls="personal" role="tab" data-toggle="tab">
+						    		Personal
+						    	</a>
+							</li>
+						    <li role="presentation">
+						    	<a href="#business" aria-controls="business" role="tab" data-toggle="tab">
+						    		Business
+						    	</a>
+						    </li>
+						</ul>
+					</div>
+					<!-- END PRICING TABLES TABS -->
+
+
+					<!-- START PRICING TABLES CONTENT -->
+					<div class="tab-content">
+
+						<!-- START PERSONAL PRICING TABLES -->
+						<div role="tabpanel" class="tab-pane fade in active" id="personal">
+							
+
+							<!-- START PRICE ITEM -->
+							<div class="p-it col-md-4">
+								<div class="price-item">
+
+									<div class="it-type">
+										<h4>Basic</h4>
+									</div>
+
+									<div class="it-price">
+										<h5><i class="fa fa-dollar"></i>99</h5>
+									</div>
+
+									<div class="it-features">
+										<p>1 Account</p>
+										<p>1 Month Term</p>
+										<p>7 Day a Week Management</p>
+										<p>Assigned Virtual Assistant</p>
+										<p>Canel Anytime</p>
+										<p>24/7 Support</p>
+									</div>
+
+									<div class="get-started">
+										<a href="#">
+											Get Started
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<!-- END PRICE ITEM -->
+
+							<!-- START PRICE ITEM -->
+							<div class="p-it best-deal col-md-4">
+								<div class="price-item">
+
+									<div class="img-layer" style="background-image: url(http://via.placeholder.com/650x750);">
+									</div>
+									<div class="overlay"></div>
+									<div class="best-tag">
+										<p>Most Popular</p>
+									</div>
+
+									<div class="it-type">
+										<h4>Executive</h4>
+									</div>
+
+									<div class="it-price">
+										<h5><i class="fa fa-dollar"></i>149</h5>
+									</div>
+
+									<div class="it-features">
+										<p>5 Account</p>
+										<p>3 Month Term</p>
+										<p>7 Day a Week Management</p>
+										<p>Assigned Virtual Assistant</p>
+										<p>Canel Anytime</p>
+										<p>24/7 Support</p>
+									</div>
+
+									<div class="get-started">
+										<a href="#">
+											Get Started
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<!-- END PRICE ITEM -->
+
+							<!-- START PRICE ITEM -->
+							<div class="p-it col-md-4">
+								<div class="price-item">
+
+									<div class="it-type">
+										<h4>Premium</h4>
+									</div>
+
+									<div class="it-price">
+										<h5><i class="fa fa-dollar"></i>249</h5>
+									</div>
+
+									<div class="it-features">
+										<p>10 Account</p>
+										<p>10 Month Term</p>
+										<p>7 Day a Week Management</p>
+										<p>Assigned Virtual Assistant</p>
+										<p>Canel Anytime</p>
+										<p>24/7 Support</p>
+									</div>
+
+									<div class="get-started">
+										<a href="#">
+											Get Started
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<!-- END PRICE ITEM -->
+
+
+						</div>
+						<!-- END PERSONAL PRICING TABLES -->
+
+						<!-- START BUSINESS PRICING TABLES -->
+						<div role="tabpanel" class="tab-pane fade" id="business">
+							
+
+							<!-- START PRICE ITEM -->
+							<div class="p-it col-md-4">
+								<div class="price-item">
+
+									<div class="it-type">
+										<h4>Basic</h4>
+									</div>
+
+									<div class="it-price">
+										<h5><i class="fa fa-dollar"></i>120</h5>
+									</div>
+
+									<div class="it-features">
+										<p>1 Account</p>
+										<p>1 Month Term</p>
+										<p>7 Day a Week Management</p>
+										<p>Assigned Virtual Assistant</p>
+										<p>Canel Anytime</p>
+										<p>24/7 Support</p>
+									</div>
+
+									<div class="get-started">
+										<a href="#">
+											Get Started
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<!-- END PRICE ITEM -->
+
+							<!-- START PRICE ITEM -->
+							<div class="p-it best-deal col-md-4">
+								<div class="price-item">
+
+									<div class="img-layer" style="background-image: url(http://via.placeholder.com/650x750);">
+									</div>
+									<div class="overlay"></div>
+									<div class="best-tag">
+										<p>Most Popular</p>
+									</div>
+
+									<div class="it-type">
+										<h4>Executive</h4>
+									</div>
+
+									<div class="it-price">
+										<h5><i class="fa fa-dollar"></i>180</h5>
+									</div>
+
+									<div class="it-features">
+										<p>5 Account</p>
+										<p>3 Month Term</p>
+										<p>7 Day a Week Management</p>
+										<p>Assigned Virtual Assistant</p>
+										<p>Canel Anytime</p>
+										<p>24/7 Support</p>
+									</div>
+
+									<div class="get-started">
+										<a href="#">
+											Get Started
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<!-- END PRICE ITEM -->
+
+							<!-- START PRICE ITEM -->
+							<div class="p-it col-md-4">
+								<div class="price-item">
+
+									<div class="it-type">
+										<h4>Premium</h4>
+									</div>
+
+									<div class="it-price">
+										<h5><i class="fa fa-dollar"></i>350</h5>
+									</div>
+
+									<div class="it-features">
+										<p>10 Account</p>
+										<p>10 Month Term</p>
+										<p>7 Day a Week Management</p>
+										<p>Assigned Virtual Assistant</p>
+										<p>Canel Anytime</p>
+										<p>24/7 Support</p>
+									</div>
+
+									<div class="get-started">
+										<a href="#">
+											Get Started
+										</a>
+									</div>
+
+								</div>
+							</div>
+							<!-- END PRICE ITEM -->
+
+
+						</div>
+						<!-- END BUSINESS PRICING TABLES -->
+
+					</div>
+					<!-- END PRICING TABLES CONTENT -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END PRICE ======  -->
+
+
+		<!-- ====== START WORK PROCESS ======  -->
+		<section class="sections work-st">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START WORK PROCESS TITLE -->
+					<div class="left-s col-md-5">
+						<h4>Excellent results are an outcome of a disciplined work process</h4>
+						<p>While we personalize our plans and its execution according to your business needs, we have predefined steps to approach a new assignment.These steps have been proven to increase our efficiency at work so that we meet your deadlines and guarantee exceptional results, every time.</p>
+					</div>
+					<!-- END WORK STEPS TITLE -->
+
+
+					<!-- START WORK PROCESS CONTENT -->
+					<div class="work-scon col-md-7">
+
+
+						<!-- START STEP PROCESS BOX -->
+						<div class="step-box col-md-12">
+
+							<!-- START STEP NUMBER -->
+							<div class="numb">
+								<span>1</span>
+							</div>
+							<!-- END STEP NUMBER -->
+
+							<!-- START STEP TITLE AND INFO -->
+							<div class="step-info">
+								<h4>Discover & Plan</h4>
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim.</p>
+							</div>
+							<!-- END STEP TITLE AND INFO -->
+
+						</div>
+						<!-- END STEP PROCESS BOX -->
+
+
+						<!-- START STEP PROCESS BOX -->
+						<div class="step-box col-md-12">
+
+							<!-- START STEP NUMBER -->
+							<div class="numb">
+								<span>2</span>
+							</div>
+							<!-- END STEP NUMBER -->
+
+							<!-- START STEP TITLE AND INFO -->
+							<div class="step-info">
+								<h4>Create the Website Sitemap</h4>
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim.</p>
+							</div>
+							<!-- END STEP TITLE AND INFO -->
+
+						</div>
+						<!-- END STEP PROCESS BOX -->
+
+
+						<!-- START STEP PROCESS BOX -->
+						<div class="step-box col-md-12">
+
+							<!-- START STEP NUMBER -->
+							<div class="numb">
+								<span>3</span>
+							</div>
+							<!-- END STEP NUMBER -->
+
+							<!-- START STEP TITLE AND INFO -->
+							<div class="step-info">
+								<h4>Design & Develop</h4>
+								<p>Fusce vitae nulla at lorem pretium semper. Curab itur laoreet, lectus ac dignissim.</p>
+							</div>
+							<!-- END STEP TITLE AND INFO -->
+
+						</div>
+						<!-- END STEP PROCESS BOX -->
+
+
+					</div>
+					<!-- END WORK PROCESS CONTENT -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END WORK PROCESS ======  -->
+
+
+		<!-- ====== START TESTIMONIALS ======  -->
+		<section class="sections testimonials">
+			<div class="container">
+				<div class="row">
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>CIENTS</span>
+						<h5>Our Clients</h5>
+						<h4>Clients that trust us</h4>
+					</div>
+					<!-- END SECTION TITLE -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YTPCXCFVXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-YTPCXCFVXX');
-</script>
+					<div class="owl-carousel col-md-12 test-car owl-theme">
 
-</body>
+						<!-- TESTIMONIALS ITEM -->
+						<div class="t-item">
+							<div class="testimonial-box">
+								<!-- TESTIMONIALS TEXT -->
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
+								<!-- TESTIMONIALS INFO -->
+								<h4>Jessi Walsh</h4>
+								<h5>Manager <span>Company</span></h5>
+								<i class="fa fa-quote-left"></i>
+							</div>
+						</div>
+						<!-- TESTIMONIALS ITEM -->
+						<div class="t-item">
+							<div class="testimonial-box">
+								<!-- TESTIMONIALS TEXT -->
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
+								<!-- TESTIMONIALS INFO -->
+								<h4>Frank Rouse</h4>
+								<h5>Designer <span>Company</span></h5>
+								<i class="fa fa-quote-left"></i>
+							</div>
+						</div>
+						<!-- TESTIMONIALS ITEM -->
+						<div class="t-item">
+							<div class="testimonial-box">
+								<!-- TESTIMONIALS TEXT -->
+								<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem.</p>
+								<!-- TESTIMONIALS INFO -->
+								<h4>Mark Zuckerberg</h4>
+								<h5>Founder <span>Company</span></h5>
+								<i class="fa fa-quote-left"></i>
+							</div>
+						</div>
+
+
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END TESTIMONIALS ======  -->
+
+
+		<!-- ====== START CLIENTS ======  -->
+		<section class="clients sections">
+			<div class="container">
+				<div class="row">
+
+
+					<div class="owl-carousel client-car owl-theme">
+
+						<div class="client-logo">
+			              <img src="http://via.placeholder.com/359x206" alt="Client Logo">
+			            </div>
+
+			            <!-- CLIENT ITEM -->
+						<div class="client-logo">
+			              <img src="http://via.placeholder.com/359x206" alt="Client Logo">
+			            </div>
+
+			            <!-- CLIENT ITEM -->
+						<div class="client-logo">
+			              <img src="http://via.placeholder.com/359x206" alt="Client Logo">
+			            </div>
+
+						<!-- CLIENT ITEM -->
+						<div class="client-logo">
+							<img src="http://via.placeholder.com/359x206" alt="Client Logo">
+						</div>
+
+						<!-- CLIENT ITEM -->
+						<div class="client-logo">
+							<img src="http://via.placeholder.com/359x206" alt="Client Logo">
+						</div>
+
+						<!-- CLIENT ITEM -->
+						<div class="client-logo">
+							<img src="http://via.placeholder.com/359x206" alt="Client Logo">
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END CLIENTS ======  -->
+
+
+		<!-- ====== START BLOG ======  -->
+		<section class="sections blog" id="blog" data-scroll-index="5">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>BLOG</span>
+						<h5>Our Blog</h5>
+						<h4>Keep up in the latest news</h4>
+					</div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- START BLOG ITEM -->
+					<div class="blog-item col-md-4">
+						<div class="blog-co">
+							<!-- POST PICTURE -->
+							<div class="feature-box-img" style="background-image: url('http://via.placeholder.com/450x350');">
+							</div>
+							<div class="blog-overlay"></div>
+							<!-- POST INFO -->
+							<div class="post-info">
+								<p>Oct 7,2020 | UX</p>
+								<a href="#">
+									<h3>7 UX Principles for Creating a Great Website</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- END BLOG ITEM -->
+
+					<!-- START BLOG ITEM -->
+					<div class="blog-item col-md-4">
+						<div class="blog-co">
+							<!-- POST PICTURE -->
+							<div class="feature-box-img" style="background-image: url('http://via.placeholder.com/450x350');">
+							</div>
+							<div class="blog-overlay"></div>
+							<!-- POST INFO -->
+							<div class="post-info">
+								<p>Oct 7,2020 | Business</p>
+								<a href="#">
+									<h3>Designed for Everyone, Everywhere</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- END BLOG ITEM -->
+
+					<!-- START BLOG ITEM -->
+					<div class="blog-item col-md-4">
+						<div class="blog-co">
+							<!-- POST PICTURE -->
+							<div class="feature-box-img" style="background-image: url('http://via.placeholder.com/450x350');">
+							</div>
+							<div class="blog-overlay"></div>
+							<!-- POST INFO -->
+							<div class="post-info">
+								<p>Oct 7,2020 | Tech</p>
+								<a href="#">
+									<h3>Bootstrap the Most Popular Framework</h3>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- END BLOG ITEM -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END BLOG ======  -->
+
+
+		<!-- ====== START CONTACT ======  -->
+		<section class="sections contact" id="contact" data-scroll-index="6">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START SECTION TITLE -->
+					<div class="s-title col-md-12">
+						<span>CONTACT</span>
+						<h5>Stay in Touch</h5>
+						<h4>Let's work together</h4>
+					</div>
+					<!-- END SECTION TITLE -->
+
+
+					<!-- START CONTACT SECTION TITLE -->
+					<div class="cont-title col-md-5">
+						<h3>Need Help? Get In Touch</h3>
+						<p>Exea conse quat duis irurey dolor sed reprehen derit volupta velit cilum lorem incididunt labore sed magna exceptur aliqua.</p>
+						<ul class="info">
+							<li>
+								<span class="icon icon-map"></span>
+								<p>Main Street 2000, Australia</p>
+							</li>
+							<li>
+								<span class="icon icon-mobile"></span>
+								<p>+1 023 456 789, +2 987 654 321</p>
+							</li>
+							<li>
+								<span class="icon icon-envelope"></span>
+								<p>company@mail.com</p>
+							</li>
+							<li>
+								<span class="icon icon-refresh"></span>
+								<p>Mon-Fri - 9:00 AM to 5:00 PM</p>
+							</li>
+						</ul>
+					</div>
+					<!-- END CONTACT SECTION TITLE -->
+
+
+					<!-- START CONTACT FORM -->
+					<div class="contact-form col-md-7">
+						<form action="php/contact.php" method="POST" class="cont-fo">
+
+
+							<div class="contact-item col-md-12">
+								<input type="text" name="name" placeholder="Name *" required="required">
+							</div>
+							<div class="contact-item col-md-12">
+								<input type="email" name="email" placeholder="Email *" required="required">
+							</div>
+							<div class="contact-item col-md-12">
+								<input type="text" name="subject" placeholder="Subject">
+							</div>
+							<div class="contact-item col-md-12">
+								<textarea id="form_message" name="message" placeholder="Message *" rows="4" required="required" data-error="Message."></textarea>
+							</div>
+							<div class="contact-item col-md-12">
+								<input type="submit" class="button disabled" value="Send Message">
+							</div>
+
+
+						</form>
+					</div>
+					<!-- END CONTACT FORM -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END CONTACT ======  -->
+
+
+		<!-- ====== START FOOTER ======  -->
+		<section class="sections footer">
+			<div class="container">
+				<div class="row">
+
+
+					<!-- START FOOTER LOGO -->
+					<div class="ft-logo col-md-3 col-sm-4 col-xs-7">
+						<img src="img/footer-logo.png" width="80" alt="Footer Logo" />
+					</div>
+					<!-- END FOOTER LOGO -->
+
+
+					<!-- START SOCIAL ICONS -->
+					<div class="sc-icon">
+						<a href="#0">
+							<span>
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="#0">
+							<span>
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="#0">
+							<span>
+								<i class="fa fa-behance" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="#0">
+							<span>
+								<i class="fa fa-vimeo" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="#0">
+							<span>
+								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+							</span>
+						</a>
+						<a href="#0">
+							<span>
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</span>
+						</a>
+					</div>
+					<!-- END SOCIAL ICONS -->
+
+
+					<!-- START RIGHTS -->
+					<div class="sub-footer">
+						<h5>CopyRight © By Joker-Themes 2020 | All Rights Reserved.</h5>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+		<!-- ====== END FOOTER ======  -->
+
+
+		<!-- ====== JS ======  -->
+		<!-- JQUERY -->
+		<script src="js/jquery.v1.12.4.js"></script>
+		<!-- BOOTSTRAP JS -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- COUNT TO JS -->
+		<script src="js/jquery.countTo.js"></script>
+		<!-- OWL CAROUSEL JS -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- ISOTOPE JS -->
+		<script src="js/isotope.pkgd.min.js"></script>
+		<!-- MASONRY JS -->
+		<script src="js/masonry.pkgd.min.js"></script>
+	    <!-- Magnific Popup core JS -->
+	    <script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- PARSLEY file -->
+	    <script src="js/parsley.js"></script>
+	    <!-- SCROLLIT file -->
+	    <script src="js/scrollIt.min.js"></script>
+	    <!-- TYPE file -->
+	    <script src="js/typed.js"></script>
+		<!-- custom js -->
+		<script src="js/main.js"></script>
+
+	</body>
 </html>
-
