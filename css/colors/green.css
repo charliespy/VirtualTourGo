@@ -1,0 +1,173 @@
+/* ========================================================================================= */
+/* ======================================= COLOR : #8cc152 =================================== */
+/* ========================================================================================= */
+.loading .sk-folding-cube .sk-cube:before {
+  background-color: #8cc152;
+}
+.s-header .middle-c .capt #cta {
+  background: -webkit-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -moz-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -o-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -ms-linear-gradient(to right, #8cc152, #56AB2F);
+  background: linear-gradient(to right, #8cc152, #56AB2F);
+}
+.s-header .middle-c .capt a:hover {
+  background: -webkit-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -moz-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -o-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -ms-linear-gradient(to right, #8cc152, #56AB2F);
+  background: linear-gradient(to right, #8cc152, #56AB2F);
+}
+.fixed .navbar-nav .active:hover a {
+  color: #8cc152;
+}
+.fixed .navbar-nav .active a {
+  color: #8cc152;
+}
+.sections .s-title h4:after {
+  background-color: #8cc152;
+}
+.about .ab-cont .features .icon,
+.about .ab-cont .features i {
+  color: #8cc152;
+}
+.about .about-pic .over-pic {
+  background: rgb(86, 171, 47, 0.7);
+  background: -webkit-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: -moz-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: -o-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: -ms-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+}
+.skills .skills-br h2 {
+  color: #8cc152;
+}
+.skills .skills-br h2:after {
+  background: #8cc152;
+}
+.skills .skills-br li .progress-bar::before {
+  background: #8cc152;
+}
+.skills .skills-br li .progress-bar span {
+  border: 2px solid #8cc152;
+}
+.services .serv-box:hover::after {
+  background: -webkit-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -moz-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -o-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -ms-linear-gradient(to right, #8cc152, #56AB2F);
+  background: linear-gradient(to right, #8cc152, #56AB2F);
+}
+.services .serv-box .icon,
+.services .serv-box i {
+  color: #8cc152;
+}
+.portfolio .filter-work a {
+  border: 1px solid #8cc152;
+}
+.portfolio .filter-work .is-checked {
+  background-color: #8cc152;
+}
+.portfolio .filter-work a:hover {
+  background-color: #8cc152;
+}
+.portfolio .work-caption .overlay {
+  background: -webkit-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: -moz-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: -o-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: -ms-linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+  background: linear-gradient(to right, rgba(140, 193, 82, 0.7), rgba(86, 171, 47, 0.7));
+}
+.pricing .price-tabs .active a {
+  background-color: #8cc152;
+}
+.pricing .p-it .price-item .it-type h4 {
+  color: #8cc152;
+}
+.pricing .p-it .price-item .get-started a {
+  color: #8cc152;
+  border: 2px solid #8cc152;
+}
+.pricing .p-it .price-item .get-started a:hover {
+  background-color: #8cc152;
+}
+.pricing .best-deal .overlay {
+  background: -webkit-linear-gradient(to right, rgba(140, 193, 82, 0.8), rgba(86, 171, 47, 0.8));
+  background: -moz-linear-gradient(to right, rgba(140, 193, 82, 0.8), rgba(86, 171, 47, 0.8));
+  background: -o-linear-gradient(to right, rgba(140, 193, 82, 0.8), rgba(86, 171, 47, 0.8));
+  background: -ms-linear-gradient(to right, rgba(140, 193, 82, 0.8), rgba(86, 171, 47, 0.8));
+  background: linear-gradient(to right, rgba(140, 193, 82, 0.8), rgba(86, 171, 47, 0.8));
+}
+.pricing .best-deal .best-tag p {
+  color: #8cc152;
+}
+.pricing .best-deal .price-item .get-started a {
+  color: #8cc152;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+.pricing .best-deal .price-item .it-type h4,
+.pricing .best-deal h5 {
+  color: #FFF;
+}
+.work-st .work-scon .step-box .numb span {
+  background: #8cc152;
+  background: -webkit-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -moz-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -o-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -ms-linear-gradient(to right, #8cc152, #56AB2F);
+  background: linear-gradient(to right, #8cc152, #56AB2F);
+}
+.work-st .work-scon .step-box:after {
+  background: #8cc152;
+  background: -webkit-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -moz-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -o-linear-gradient(to right, #8cc152, #56AB2F);
+  background: -ms-linear-gradient(to right, #8cc152, #56AB2F);
+  background: linear-gradient(to right, #8cc152, #56AB2F);
+}
+.work-st .work-scon .step-box:hover .numb span {
+  color: #8cc152;
+}
+.testimonials .t-item .testimonial-box h4 {
+  color: #8cc152;
+}
+.testimonials .t-item .testimonial-box:hover {
+  background-color: #8cc152;
+}
+.blog .bg-item .bg-tt h4 {
+  color: #8cc152;
+}
+.blog .bg-item .bg-tt .rd-more a {
+  color: #8cc152;
+  border: 2px solid #8cc152;
+}
+.blog .bg-item .bg-tt .rd-more a:hover {
+  background-color: #8cc152;
+}
+.blog .blog-item .blog-co .post-info p {
+  border: 1px solid #8cc152;
+  background: #8cc152;
+}
+.blog .blog-item .blog-co .post-info h3:hover {
+  color: #8cc152;
+}
+.contact .cont-title .info li .icon,
+.contact .cont-title .info li i {
+  color: #8cc152;
+}
+.contact .contact-form .button {
+  border: 2px solid #8cc152;
+  color: #8cc152;
+}
+.contact .contact-form .button:hover {
+  background-color: #8cc152;
+}
+.contact-item input:focus,
+.contact-item textarea:focus {
+  border-color: #8cc152;
+}
+.footer .sc-icon a:hover span {
+  border-color: #8cc152;
+  background-color: #8cc152;
+}

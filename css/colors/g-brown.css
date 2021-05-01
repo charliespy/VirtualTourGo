@@ -1,0 +1,180 @@
+/* ========================================================================================= */
+/* ======================================= COLOR : #cf9c63 =================================== */
+/* ========================================================================================= */
+.loading .sk-folding-cube .sk-cube:before {
+  background-color: #cf9c63;
+}
+.s-header .header-overlay {
+  background: -webkit-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -moz-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -o-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -ms-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+}
+.s-header .middle-c .capt #cta {
+  background: -webkit-linear-gradient(to right, #656D78, #434A54);
+  background: -moz-linear-gradient(to right, #656D78, #434A54);
+  background: -o-linear-gradient(to right, #656D78, #434A54);
+  background: -ms-linear-gradient(to right, #656D78, #434A54);
+  background: linear-gradient(to right, #656D78, #434A54);
+}
+.s-header .middle-c .capt a:hover {
+  background: -webkit-linear-gradient(to right, #656D78, #434A54);
+  background: -moz-linear-gradient(to right, #656D78, #434A54);
+  background: -o-linear-gradient(to right, #656D78, #434A54);
+  background: -ms-linear-gradient(to right, #656D78, #434A54);
+  background: linear-gradient(to right, #656D78, #434A54);
+}
+.fixed .navbar-nav .active:hover a {
+  color: #cf9c63;
+}
+.fixed .navbar-nav .active a {
+  color: #cf9c63;
+}
+.sections .s-title h4:after {
+  background-color: #cf9c63;
+}
+.about .ab-cont .features .icon,
+.about .ab-cont .features i {
+  color: #cf9c63;
+}
+.about .about-pic .over-pic {
+  background: rgb(207, 156, 99, 0.7);
+  background: -webkit-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -moz-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -o-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -ms-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+}
+.skills .skills-br h2 {
+  color: #cf9c63;
+}
+.skills .skills-br h2:after {
+  background: #cf9c63;
+}
+.skills .skills-br li .progress-bar::before {
+  background: #cf9c63;
+}
+.skills .skills-br li .progress-bar span {
+  border: 2px solid #cf9c63;
+}
+.services .serv-box:hover::after {
+  background: -webkit-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -moz-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -o-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -ms-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: linear-gradient(to right, #cf9c63, #CF9C63);
+}
+.services .serv-box .icon,
+.services .serv-box i {
+  color: #cf9c63;
+}
+.portfolio .filter-work a {
+  border: 1px solid #cf9c63;
+}
+.portfolio .filter-work .is-checked {
+  background-color: #cf9c63;
+}
+.portfolio .filter-work a:hover {
+  background-color: #cf9c63;
+}
+.portfolio .work-caption .overlay {
+  background: -webkit-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -moz-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -o-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: -ms-linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+  background: linear-gradient(to right, rgba(96, 56, 19, 0.7), rgba(207, 156, 99, 0.7));
+}
+.pricing .price-tabs .active a {
+  background-color: #cf9c63;
+}
+.pricing .p-it .price-item .it-type h4 {
+  color: #cf9c63;
+}
+.pricing .p-it .price-item .get-started a {
+  color: #cf9c63;
+  border: 2px solid #cf9c63;
+}
+.pricing .p-it .price-item .get-started a:hover {
+  background-color: #cf9c63;
+}
+.pricing .best-deal .overlay {
+  background: -webkit-linear-gradient(to right, rgba(96, 56, 19, 0.8), rgba(207, 156, 99, 0.8));
+  background: -moz-linear-gradient(to right, rgba(96, 56, 19, 0.8), rgba(207, 156, 99, 0.8));
+  background: -o-linear-gradient(to right, rgba(96, 56, 19, 0.8), rgba(207, 156, 99, 0.8));
+  background: -ms-linear-gradient(to right, rgba(96, 56, 19, 0.8), rgba(207, 156, 99, 0.8));
+  background: linear-gradient(to right, rgba(96, 56, 19, 0.8), rgba(207, 156, 99, 0.8));
+}
+.pricing .best-deal .best-tag p {
+  color: #cf9c63;
+}
+.pricing .best-deal .price-item .get-started a {
+  color: #cf9c63;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+.pricing .best-deal .price-item .it-type h4,
+.pricing .best-deal h5 {
+  color: #FFF;
+}
+.work-st .work-scon .step-box .numb span {
+  background: #cf9c63;
+  background: -webkit-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -moz-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -o-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -ms-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: linear-gradient(to right, #cf9c63, #CF9C63);
+}
+.work-st .work-scon .step-box:after {
+  background: #cf9c63;
+  background: -webkit-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -moz-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -o-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: -ms-linear-gradient(to right, #cf9c63, #CF9C63);
+  background: linear-gradient(to right, #cf9c63, #CF9C63);
+}
+.work-st .work-scon .step-box:hover .numb span {
+  color: #cf9c63;
+}
+.testimonials .t-item .testimonial-box h4 {
+  color: #cf9c63;
+}
+.testimonials .t-item .testimonial-box:hover {
+  background-color: #cf9c63;
+}
+.blog .bg-item .bg-tt h4 {
+  color: #cf9c63;
+}
+.blog .bg-item .bg-tt .rd-more a {
+  color: #cf9c63;
+  border: 2px solid #cf9c63;
+}
+.blog .bg-item .bg-tt .rd-more a:hover {
+  background-color: #cf9c63;
+}
+.blog .blog-item .blog-co .post-info p {
+  border: 1px solid #cf9c63;
+  background: #cf9c63;
+}
+.blog .blog-item .blog-co .post-info h3:hover {
+  color: #cf9c63;
+}
+.contact .cont-title .info li .icon,
+.contact .cont-title .info li i {
+  color: #cf9c63;
+}
+.contact .contact-form .button {
+  border: 2px solid #cf9c63;
+  color: #cf9c63;
+}
+.contact .contact-form .button:hover {
+  background-color: #cf9c63;
+}
+.contact-item input:focus,
+.contact-item textarea:focus {
+  border-color: #cf9c63;
+}
+.footer .sc-icon a:hover span {
+  border-color: #cf9c63;
+  background-color: #cf9c63;
+}

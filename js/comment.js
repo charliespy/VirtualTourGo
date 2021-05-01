@@ -1,0 +1,11 @@
+//////////////////////////////////////////////////////  //
+//    EVENTS ON DOCUMENT READY                          //
+//////////////////////////////////////////////////////  //
+
+$(document).ready(function () {
+    "use strict";
+
+    //// PARSLEY TRIGGER
+    $('.cont-fo').parsley();
+
+});
