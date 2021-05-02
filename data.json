@@ -1067,7 +1067,7 @@
       ]
     },
     {
-      "school_name": "University of California, Berkeley",
+      "school_name": "University of California, Berkeley (UCB)",
       "address": "Berkeley, CA, United States",
       "location": {
         "lat": 37.8718992,
@@ -1798,7 +1798,7 @@
       ]
     },
     {
-      "school_name": "University of California, Los Angeles",
+      "school_name": "University of California, Los Angeles (UCLA)",
       "address": "Los Angeles, CA 90095, United States",
       "location": {
         "lat": 34.068921,
@@ -9216,7 +9216,7 @@
       ]
     },
     {
-      "school_name": "University of California San Diego",
+      "school_name": "University of California San Diego（UCSD）",
       "address": "9500 Gilman Dr, La Jolla, CA 92093, United States",
       "location": {
         "lat": 32.8800604,
@@ -9812,7 +9812,7 @@
       ]
     },
     {
-      "school_name": "University of California, Davis",
+      "school_name": "University of California, Davis (UC Davis)",
       "address": "1 Shields Ave, Davis, CA 95616, United States",
       "location": {
         "lat": 38.5382322,
@@ -15469,7 +15469,7 @@
       ]
     },
     {
-      "school_name": "University of California Irvine",
+      "school_name": "University of California Irvine (UCI)",
       "address": "Irvine, CA 92697, United States",
       "location": {
         "lat": 33.6404952,
@@ -28921,7 +28921,7 @@
       ]
     },
     {
-      "school_name": "University of California, Santa Barbara",
+      "school_name": "University of California, Santa Barbara (UCSB)",
       "address": "Santa Barbara, CA 93106, United States",
       "location": {
         "lat": 34.4139629,
@@ -37347,7 +37347,7 @@
       ]
     },
     {
-      "school_name": "University of California Santa Cruz",
+      "school_name": "University of California Santa Cruz (UCSC)",
       "address": "1156 High St, Santa Cruz, CA 95064, United States",
       "location": {
         "lat": 36.9880503,
@@ -40784,7 +40784,7 @@
       ]
     },
     {
-      "school_name": "University of California Merced",
+      "school_name": "University of California Merced (UCM)",
       "address": "5200 Lake Rd, Merced, CA 95343, United States",
       "location": {
         "lat": 37.3660652,
@@ -41307,7 +41307,7 @@
       ]
     },
     {
-      "school_name": "University of California, Riverside",
+      "school_name": "University of California, Riverside (UCR)",
       "address": "900 University Ave, Riverside, CA 92521, United States",
       "location": {
         "lat": 33.9737055,
