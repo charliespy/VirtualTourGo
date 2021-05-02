@@ -19,29 +19,12 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="data.js"></script>
     <script src="new_view_data.js"></script>
-  <script src="index_controller.js"></script>
+    <script src="index_controller.js"></script>
+    
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
       }
       h1{
         text-align:center;
-      }
-      #topPart{
-        height:70%;
-        weight:100%;
-        padding:10px;
-        margin-top:30px;
       }
       
       .btn btn-outline-secondary{
@@ -63,56 +46,77 @@
     <!-- Custom styles for this template -->
     <!-- <link href="jumbotron.css" rel="stylesheet"> -->
   </head>
+
+
+
+
   <body>
-    <!--navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top transparent" id="webb">
-      <a class="navbar-brand" href="https://www.webb.org"  style="color:black">Virtourgo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon bg-dark"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item" style="width:80px; !important">
-            <a class="nav-link" href="index.html" style="color:black">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html" style="color:black">About <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--navigation bar-->
-<main role="main">
-  <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="">
-    <div class="container">
-      <br>
-      <br>
-      <div class="jumbotron mt-4">
-      <div style="text-align:center;display:flex; flex-direction:column;">
-        <img src="virtourgo.png" style="width:50%; margin:0 auto;"></img>
-        <span class="lead" style="margin-top:10px">Welcome to Virtourgo!</span>
-        <span class="lead">Explore your intererested school with no limit!</span>
-      </div>
-      </div>
-      <br>
-      <br>
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="School name" id="schoolInput" aria-label="School name" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary" type="button" id="startVirtualTour" background-color: #008CBA;>Start Virtual Tour</button>
+    <div style="background: url('bg3.jpg'); background-attachment: fixed; background-size: cover; background-repeat: no-repeat; height: 110vh; width: 100%; position: relative; overflow-x: hidden!important; overflow-y: hidden!important;">
+      <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: rgba(0,0,0,.4);">
+        
+        <!-- ====== NAVGITION ======  -->
+        <nav class="navbar land-nav">
+          <div class="container">
+            <div class="row">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <!-- logo -->
+                <a class="logo navbar-brand" href="index.html" style ="padding-top: 15px;">
+
+                  <img width="200" src="virtourgo.png" alt="logo" />
+                  
+                </a>
+              </div>
+
+
+                <!-- links -->
+                <ul class="nav navbar-nav navbar-right" style="font-size: 16px; margin: 30px 23px; font-weight: 300; color:white">
+                  <li class="active"><a href="index.html" style="color: white; margin: 0; padding: 0; text-transform: uppercase; font-size: 12.5px; font-weight: 300; letter-spacing: 1px; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;">Home</a></li>
+                  <li class="active"><a href="index.html" style="color: white; margin: 0; padding: 0; text-transform: uppercase; font-size: 12.5px; font-weight: 300; letter-spacing: 1px; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out;">About</a></li>
+                </ul>
+
+            </div>
+          </div><!-- /.container -->
+        </nav>
+        <!-- ====== END NAVGITION ======  -->
+
+        <!---content--->
+        <div class="middle-c text-center" style="color: #FFF; position: absolute; width: 100%; top: 49.5%; left: 0; -webkit-transform: translate(0,-50%); -moz-transform: translate(0,-50%); -ms-transform: translate(0,-50%); -o-transform: translate(0,-50%); transform: translate(0,-50%);z-index: 99; text-align:center;">
+          <div class="container" style="padding-top: 11px; margin-left:25%">
+              <div class="capt col-md-8 col-sm-11">
+
+                <div style="text-align:center;display:flex; flex-direction:column; text-align:center">
+                  <h1 class="lead" style="color:white; font-weight: 300; font-size: 50px; line-height: 65px; position: relative; z-index: 2; ">Explore your <span style="font-family: 'Poppins', sans-serif;font-weight:800">dream school</span></h1>
+                  <h1 class="lead" style="color:white; font-weight: 300; font-size: 50px; line-height: 65px; position: relative; z-index: 2; margin-bottom: 50px">with <span style="font-family: 'Poppins', sans-serif;font-weight:800">no limit!</span></h1>
+                </div>
+
+                <div>
+                  <input type="text" placeholder="School name" id="schoolInput"
+                    style="float: left; width:80%; height: 40px; color:black; border-radius:4px;">
+                  <button id="startVirtualTour"
+                    style="float: right; width:20%; height: 40px; color:black; border-radius:4px;">Start
+                    Virtual Tour</button>
+							  </div>
+
+              </div>
+          </div>
         </div>
+        <!---content--->
+
+        <div class="header-shap" style="bottom: -10px; left: 0; position: absolute; right: 0; z-index: 1;">
+				  <img src="shap1.png" alt="Shape" style="max-width: 100%; min-width: 100%; width: 100%;">
+			  </div>
+
+
+        
+
+
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
     </div>
+
+
     
-  </div>
-  <div class="container">
-  </div> <!-- /container -->
-</main>
+
 <!-- 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
